@@ -12,7 +12,7 @@ namespace Strings_using_ReadLine
         {
             Console.WriteLine("Enter your name (Press Esc to exit):");
 
-            while (true)
+            while (true) // Loop for entering your first name
             {
                 // Read a key from the console
                 ConsoleKeyInfo keyInfo = Console.ReadKey();
@@ -26,6 +26,7 @@ namespace Strings_using_ReadLine
 
                 // Greet the user
                 Console.WriteLine("Hello, " + userName + "! Nice to meet you.");
+                Console.WriteLine("Looping user input");
             }
         }
     }

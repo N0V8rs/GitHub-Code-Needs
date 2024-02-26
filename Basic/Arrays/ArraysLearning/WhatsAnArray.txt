@@ -1,0 +1,12 @@
+// Declare and initialize an array of integers
+int[] numbers = new int[5]; // This creates an array of integers with a length of 5
+
+// You can also initialize the array with values
+int[] numbers = { 1, 2, 3, 4, 5 }; // This creates an array of integers with the specified values
+
+// Accessing elements of the array
+int firstNumber = numbers[0]; // Access the first element of the array (index 0)
+int secondNumber = numbers[1]; // Access the second element of the array (index 1)
+
+// Modifying elements of the array
+numbers[2] = 10; // Change the value of the third element of the array (index 2) to 10
